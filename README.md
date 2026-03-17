@@ -6,7 +6,7 @@ Based on [Electron⚡️Vite](https://github.com/electron-vite)
 
 ```sh
 # clone the project
-git clone https://github.com/electron-vite/electron-vite-vue.git
+git clone https://github.com/cornegeijtenbeek/visual-live-programming-for-devs
 
 # enter the project directory
 cd electron-vite-vue
