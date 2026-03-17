@@ -1,7 +1,7 @@
-import { app, BrowserWindow, ipcMain, shell } from 'electron';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { app, BrowserWindow, ipcMain, shell } from 'electron';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -42,6 +42,7 @@ async function createWindow() {
             // Read more on https://www.electronjs.org/docs/latest/tutorial/context-isolation
             // contextIsolation: false,
         },
+        autoHideMenuBar: true,
     });
 
     if (VITE_DEV_SERVER_URL) {
