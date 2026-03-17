@@ -1,6 +1,6 @@
 # Boilerplate
 
-Based on ![Electron⚡️Vite](https://github.com/electron-vite)
+Based on [Electron⚡️Vite](https://github.com/electron-vite)
 
 ## Quick Setup
 
@@ -17,10 +17,6 @@ npm install
 # develop
 npm run dev
 ```
-
-## Debug
-
-![electron-vite-react-debug.gif](https://github.com/electron-vite/electron-vite-react/blob/main/electron-vite-react-debug.gif?raw=true)
 
 ## Directory
 
